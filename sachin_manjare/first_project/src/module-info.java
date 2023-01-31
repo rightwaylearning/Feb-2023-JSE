@@ -5,5 +5,5 @@
  * @author HP
  *
  */
-module first_program {
+module first_project {
 }
