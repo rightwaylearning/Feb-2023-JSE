@@ -1,6 +1,7 @@
-package identifiers.examples;
+package identifiers.ex;
 
-public class SampleIdetifiersExample {
+public class SampleIdentifiersEx {
+	
 public static void main(String[] args) {
 		
 		int num1 = 200;
@@ -14,7 +15,7 @@ public static void main(String[] args) {
 		
 		String $ = "hello";
 			
-	
 		
 	}
+
 }

@@ -1,6 +1,6 @@
-package identifiers.examples;
+package my_class;
 
-public class SampleIdetifiersExample {
+public class ClassJava {
 public static void main(String[] args) {
 		
 		int num1 = 200;
