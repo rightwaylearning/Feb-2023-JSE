@@ -7,8 +7,6 @@ public class EnteryPoint {
 		VariableTypes v1=new VariableTypes();
 		v1.printInfo("sayali",1);
 		
-		
-		
 		VariableTypes v2=new VariableTypes();
 		v2.printInfo("ram",2);
 		
