@@ -11,7 +11,7 @@ void m1(int p,int q)
 {
 	  int r;
 	  int num2;
-	  intr1;
+	  int r1;
 	  
 
 }
