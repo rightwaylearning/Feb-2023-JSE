@@ -1,12 +1,16 @@
 package practice_01;
 
-public class TeacherRefrence {
-	techerinfo(int rollno,String Name,String BloodGroup);
-	student p = New student
+public class TeacherRefrence1 {
+	
+	StudentAdmition techerinfo(int rollno,String Name1,String BloodGroup1, int std1)
+	{
+	StudentAdmition p = new StudentAdmition();
 			p.rollno=rollno;
-			p.Name = student Name; 
-			p.BloodGroup = BloodGroup;
+			p.Name = Name1; 
+			p.BloodGroup = BloodGroup1;
+			p.std=std1;
+			
 	         return p;
 	
-
+	}
 }
