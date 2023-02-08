@@ -19,7 +19,7 @@ public class EntryPoint {
 		 s1.a = 54;
 		 s1.b = 55;
 		 
-		 s1.m1();
+		 s1.m3();
 		 
 		 Static.m2();
 	
@@ -27,6 +27,9 @@ public class EntryPoint {
 		 System.out.println(s.z);
 		 System.out.println(s1.z);
 	
+		 s1.m1(s);
+		 
+		 
 	}
 
 }
