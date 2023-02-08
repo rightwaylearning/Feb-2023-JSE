@@ -7,7 +7,6 @@ public class EntryPoint {
 		TeacherReference t = new TeacherReference();
 		Student s = t. generateStudent("Rahul",2);
 		  s.printInfo();
-		  
 	}
 	
 	
