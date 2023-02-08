@@ -8,11 +8,12 @@ public class Test {
  public void m1 () {
 	 
 	 int a = 250;
+	 int b = 300;   
 	 
-	 System.out.println(a);
+	 System.out.println(a);     // to print value of local variable 
 	 System.out.println(b);
 	 
-	 System.out.println(this a);
-     System.out.println(this b);	 
+	 System.out.println(this.a); // to print value inside t and t1 then use = this 
+     System.out.println(this.b);	 
  }
 }
