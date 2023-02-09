@@ -17,7 +17,8 @@ public class Variables {
 		System.out.println(this.b);
 		
 	}
-	/*a=88/10/100/2
+	/*output:
+	 a=88/10/100/2
 	b=20/
 	this.a=99/100
 	this.b=999*/
