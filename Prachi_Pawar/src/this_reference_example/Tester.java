@@ -13,3 +13,5 @@ public static void main(String[] args) {
 	}
 
 }
+// obj is local variable.
+// obj is a reference variable of type test.
