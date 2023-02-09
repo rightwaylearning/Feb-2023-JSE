@@ -5,11 +5,14 @@ public class Test {
 	int b;
 	
 	void m1(int b) {
-		int a=10;
-		b=20;
-		this.a=100;
+		int a=87;
+		b=3;
+		
+		this.a=5;
 		a=this.a;
-		a=2;
+	
+		this.b=12;
+		this.a=32;
 		
 		System.out.println(a);
 		System.out.println(b);
