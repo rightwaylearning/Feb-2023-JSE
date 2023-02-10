@@ -9,7 +9,7 @@ public class Case1_InSameClass {
 	void m1()//instance/non static method
 	{
 		System.out.println(a);
-		System.out.println(b);
+		System.out.println(b); //need not to create object or class name in same class to access static and instance variables.
 		System.out.println(x);
 		System.out.println(y);
 	}
