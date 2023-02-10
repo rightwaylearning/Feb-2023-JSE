@@ -1,13 +1,15 @@
-package this_variable;
+package divide;
 
 public class Entrypoint {
 	public static void main(String[] args) {
 		
-		Test obj =new Test();
-		obj.a=10;
-		obj.b=20;
+		Div d1 = new Div();
 		
-		obj.m1();
+		d1.a=10;
+		d1.b=2;
+		
+		d1.div();
+		
 		
 	}
 
