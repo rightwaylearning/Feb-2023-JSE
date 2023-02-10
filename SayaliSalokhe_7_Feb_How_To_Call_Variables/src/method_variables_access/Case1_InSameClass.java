@@ -1,4 +1,4 @@
-package method.variables.access;
+package method_variables_access;
 
 public class Case1_InSameClass {
 	 int a;   //instance variable
