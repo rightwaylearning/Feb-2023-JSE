@@ -1,4 +1,4 @@
-package methods_variable_access;
+	package methods_variable_access;
 
 public class Case1 {
 	
