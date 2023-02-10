@@ -1,14 +1,26 @@
 package in_same_class;
 
 public class Entrypoint {
-	public static void main(String[] args) {
+//	public static void main(String[] args) {
 		
-		Case1 a1=new Case1();
-		a1.a=10;
-		a1.b=12;
+	
+	void m1() {
+		Case1 c = new Case1();
+		System.out.println(c.x);
+		System.out.println(c.y);
 		
-		a1.m1();
+		System.out.println(Case1.m);
+		System.out.println(Case1.n);
 		
 	}
+	
+	static void m2() {
+		Case1 c = new Case1();
+		System.out.println(c.x);
+		System.out.println(c.y);
+		
+		System.out.println(Case1.m);
+		System.out.println(Case1.n);
+	} 
+	}
 
-}
