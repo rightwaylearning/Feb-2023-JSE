@@ -15,15 +15,6 @@ public class Case2 {
   		System.out.println(c.y);
   		System.out.println(Case1.m);
   		System.out.println(Case1.n);	  
-      }
-      
-      public static void main(String[] args) {
-    	  Case1 c = new Case1();
-    		System.out.println(c.x);
-    		System.out.println(c.y);
-    		System.out.println(Case1.m);
-    		System.out.println(Case1.n);
-	}
-		   
+      }	   
 	}
 
