@@ -1,4 +1,4 @@
-package methods_variable;
+package methods_variable_cases;
 
 public class Case1 {
 	int a;
