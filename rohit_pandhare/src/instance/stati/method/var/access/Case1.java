@@ -1,7 +1,7 @@
 package instance.stati.method.var.access;
 
 public class Case1 {
-	
+
 	int a ;
 	int b;
 	static int x;

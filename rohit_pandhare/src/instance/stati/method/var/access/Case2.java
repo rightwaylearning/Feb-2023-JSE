@@ -2,7 +2,12 @@ package instance.stati.method.var.access;
 
 public class Case2 {
 
+	int x1 = 3111;
+	int y1 = 11112;
+	
 	void k1 () {
+		
+		System.out.println("hello hai this ref variable aahe " + this.x1);
 		
 		Case1 c= new Case1();
 		c.a = 122;
