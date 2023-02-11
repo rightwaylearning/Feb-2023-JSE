@@ -1,7 +1,7 @@
-	package methods_variable_access;
+package in_same_class;
+
 
 public class Case1 {
-	
 	int x;
 	int y;
 	static int m;
@@ -11,8 +11,8 @@ public class Case1 {
 	void m1() {
 		System.out.println(x);
 		System.out.println(y);
-		System.out.println(m); // best practice for static A.m
-		System.out.println(n); // A.n		
+		System.out.println(m);
+		System.out.println(n);		
 	}
 	
 	static void m2() {
@@ -21,9 +21,9 @@ public class Case1 {
 		System.out.println(c.x);
 		System.out.println(c.y);
 		
-		System.out.println(m); // A.m
-		System.out.println(n); // A.n		
-		
+		System.out.println(m);
+		System.out.println(n);
 	}
 
 }
+
