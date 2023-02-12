@@ -5,7 +5,7 @@ public class Entrypoint {
 	public static void main(String[] args) {
 		Student s= new Student();
 		s.rollNumber=22;
-		s.StudentName= "Prathamesh Pawar";
+		s.StudentName= "Akshay Pawar";
 		s.SchoolName="Kavi Morophant baramati";
 		s.studentAge= 15;
 		s.studentDivision="D";

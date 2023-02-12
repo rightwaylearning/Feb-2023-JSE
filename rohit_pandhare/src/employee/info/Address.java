@@ -4,8 +4,7 @@ public class Address {
 
 	String line ;
 	Mobile no;
-	
-	
+		
 	public EmployeeInfo emp() {
 		
 		EmployeeInfo e1 = new EmployeeInfo();
@@ -21,4 +20,7 @@ public class Address {
     System.out.println(result);
 	
 	}
+	
+	
+	
 }
