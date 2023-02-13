@@ -2,7 +2,7 @@ package upcasting;
 
 public class UpcastingPractice1 {
 
-	public static void main(String[] args) {
+	public static void main(String[] Args) {
 		
 		int i = 10;
 		
