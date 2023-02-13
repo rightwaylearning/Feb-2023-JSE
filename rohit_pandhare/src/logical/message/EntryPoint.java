@@ -8,8 +8,9 @@ public class EntryPoint {
 		      e.name = "xyz";
 		      e.employeeId = 12;
 		      e.companyName = "companyName";
-		      e.addr = new Address();
+		     e.addr = new Address();
 		      e.addr.line1 = "AddressLine1";
+		      
 		
 	    Office o = new Office() ;
 //	                             Address a = new Address();
