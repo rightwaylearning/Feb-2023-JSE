@@ -1,13 +1,17 @@
 package twodigit;
 
 public class addTwoDigit {
-	public int a;
-	public int b;
+	
+	public int x;
+	public int y;
 	public void sum() {
-		int s=a+b;
-
-	system.out.println(s)
+		int s=x+y;
+	System.out.println(s);
+	
+	
+	
 	}
 	
 
 }
+		
