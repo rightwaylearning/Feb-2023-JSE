@@ -15,7 +15,6 @@ public class NewStaticCounter {
 	
 	counter obj2=new counter();
 	System.out.println(obj2.count);
-	
 	obj2.count();
 	
 	System.out.println(obj1.count);
