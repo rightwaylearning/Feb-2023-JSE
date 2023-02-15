@@ -6,9 +6,9 @@ public class Demo {
 		 char ch ='A';  // 65
 		 
 		 double d = ch;
-		 
 		 System.out.println(d);
 		 
-		 
-		 }
+	
+	
+	}
 	}
