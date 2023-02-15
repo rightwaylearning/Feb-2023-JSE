@@ -1,5 +1,7 @@
 package static_intance_method_variable;
 
+import java.sql.Connection;
+
 public class A {
 	
 	int a;
@@ -22,6 +24,8 @@ public class A {
 		m2(); // this.m2();
 		s1(); // A.s1();
 		s2(); //A.s2();
+		
+		Connection con;
 		
 	}
 	
