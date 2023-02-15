@@ -1,7 +1,6 @@
-package logical.building_13date;
+package logical.building;
 
-public class Case1 {
-	
+public class case1 {
 	public static void main(String[] args) {
 		int a = 43;
 		int i = 44;
@@ -75,5 +74,6 @@ public class Case1 {
 				
 
 	}
+
 
 }
