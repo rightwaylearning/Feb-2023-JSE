@@ -71,6 +71,8 @@ public class Case1 {
 		
 		System.out.println(31/2.0);
 
+		
+				
 
 	}
 
