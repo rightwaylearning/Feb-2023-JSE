@@ -1,14 +1,14 @@
-package upcasting;
+package Upcasting;
 
 public class Demo {
 	public static void main(String[] args) {
 		
-		 char ch ='A';  // 65
+		char ch ='A';  // 65
 		 
 		 double d = ch;
 		 System.out.println(d);
 		 
-	
-	
 	}
-	}
+
+
+}
