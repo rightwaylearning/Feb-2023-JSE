@@ -12,7 +12,9 @@ public class Case1 {
 	
 static void m2() {
 	
-//	static are = 32;
+	int c;
+	
+//	static int are = 32;
 //	static method madhe static property lihu nahi shakt
 		
 		System.out.println("hello this is static method");
