@@ -8,5 +8,12 @@ public class Relational_opt {
 		System.out.println(d <= d1);
 		System.out.println(d + d1);
 		System.out.println(d > d1);
+		boolean r1 = 1200 < 1800;
+		int c = 66;
+		int e = 88;
+		System.out.println(88 < 66);
+		System.out.println('A' > 34);
+		System.out.println('M' <= 78);
+
 	}
 }
