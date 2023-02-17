@@ -1,6 +1,6 @@
 package variable_LacalVariable_ObjectVariable_declaration;
 
-import variable.local_variable_declarartion.Test;
+
 
 public class EntryPoint {
 	public static void main(String[] args) {
