@@ -13,6 +13,8 @@ public class Upcasting {
 	}
 	
 	C a =new C();
+	//C a =new B();
+	
 	B a1=new B();
 	A a2=new A();
 	Object a3=new Object();
