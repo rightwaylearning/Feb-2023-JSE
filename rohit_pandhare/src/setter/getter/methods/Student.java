@@ -7,7 +7,7 @@ public class Student {
 	private String schoolName;
 
 	public void setSchoolName() {
-		this.schoolName = "Rajiv Gandhi Highschool";
+		this.schoolName = "Rajiv Gandhi Highschool ";
 //		System.out.println(this.schoolName);
 
 	}
