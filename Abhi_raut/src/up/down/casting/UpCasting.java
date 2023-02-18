@@ -1,4 +1,4 @@
-package up.casting;
+package up.down.casting;
 
 public class UpCasting {
 	public static void main(String[] args) {
