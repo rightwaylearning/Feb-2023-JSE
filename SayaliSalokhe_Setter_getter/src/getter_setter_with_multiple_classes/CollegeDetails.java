@@ -1,4 +1,4 @@
-package getter_setter_with_maultile_classes;
+package getter_setter_with_multiple_classes;
 
 public class CollegeDetails {
 	private String clg_Name;
