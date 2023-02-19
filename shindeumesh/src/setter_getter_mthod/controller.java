@@ -9,6 +9,12 @@ public class controller {
 		S.setRollNumber(21);
 	S.setSchoolName("MG");
 	
+	
+	System.out.println(S.getName());
+	System.out.println(S.getRollNumber());
+	System.out.println(S.getSchoolName());
+	
+	
 	}
 	
 
