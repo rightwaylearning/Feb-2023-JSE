@@ -46,6 +46,26 @@ public class Case1 {
 		boolean r3 = c instanceof C;
 		System.out.println(r3);
 
+//		example 
+		
+		C o1 = new C();
+		B c1 = o1;
+		boolean r4 = c1 == o1;
+		System.out.println(r4);
+
+//		aasa example aahe
+		
+		C o2 = new C();
+		B b2 = new B();
+		
+		boolean r5 = o2 == b2;
+		System.out.println(r5);
+
+		C o3 = new C();
+		B b3 = o3;
+		
+		boolean r6 = o3 == b3;
+		System.out.println(r6);
 	}
 
 }
