@@ -17,8 +17,6 @@ public class Controller {
 		e.setAdr(adr);
 		
 		
-	//	int empId = e.getEmpId();
-		//System.out.println(empId);
 		
 		String name = e.getEnpName();
 		System.out.println(name);
