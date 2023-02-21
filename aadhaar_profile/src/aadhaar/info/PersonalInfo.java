@@ -8,16 +8,16 @@ public class PersonalInfo {
 	
 public void info() {
 	
-	System.out.println(name);
-	System.out.println(birthYear);
-	System.out.println(adr);
+	System.out.println("Name = " +name);
+	System.out.println("birthYear = "+birthYear);
+	System.out.println("Address----" +adr);
 }
 
 public void address() {
-	System.out.println(adr.buldingNo);
-	System.out.println(adr.landmark);
-	System.out.println(adr.area);
-	System.out.println(adr.pinCode);
+	System.out.println("buldingNo = " +adr.buldingNo);
+	System.out.println("landmark = " +adr.landmark);
+	System.out.println("Area = " +adr.area);
+	System.out.println("pinCode = " +adr.pinCode);
 	
   }
 
