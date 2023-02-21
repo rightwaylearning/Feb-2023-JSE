@@ -1,3 +1,4 @@
+
 package relational.operators;
 
 public class Test {  // relational.operators.Test
@@ -48,7 +49,8 @@ public class Test {  // relational.operators.Test
 		System.out.println(31/2.0);
 		
 		
-		
+	    int i= 65;
+	  //  char ch1 = i;
 		
 		
 	}
