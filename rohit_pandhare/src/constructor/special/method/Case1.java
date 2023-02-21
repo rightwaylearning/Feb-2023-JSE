@@ -20,6 +20,11 @@ public class Case1 {
 		System.out.println(a);
 	}
 	
+	Case1(){
+		System.out.println("hello this is constructor(one type of method)");
+	}
+	
+//	donhi call hoil aata 
 	
 	void m1() {
 		System.out.println("this is method body of m1 and having no paramerters in that");
