@@ -7,7 +7,7 @@ public class Case2 {
 		
 	 if(o instanceof AA) {
 		AA a = (AA)o;    ///yacha aarth AA a = new AA();
-		a.testMe();
+		a.testMe();         //aasa lihu nahi shakt AA a = o (wrong)
 	 }	
 
 	 if(o instanceof BB) {
