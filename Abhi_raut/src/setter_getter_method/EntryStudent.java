@@ -28,7 +28,31 @@ public class EntryStudent {
         
         String company= i.getCompanyname();
         System.out.println(company);
+ //........................................................
         
+        Employee e = new Employee();
+        e.setName("Suresh Patel");
+        e.setId(56234);
+       
+        
+                                  Address adr = new Address();
+                                  adr.landmark="main line, near crown plaza";
+                                  adr.area="pune,maharashtra";
+                                  adr.pinCode=400023;
+         e.setAdr(adr);                      
+                                 
+        String n =e.getName();
+        int d = e.getId();
+        Address adr1 = e.getAdr();    
+        
+        System.out.println(n);
+        System.out.println(d);
+        System.out.println(adr1);
+        
+        System.out.println(adr1.landmark);
+        System.out.println(adr1.area);
+        System.out.println(adr1.pinCode);
+             
 	}
 
 }
