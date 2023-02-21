@@ -13,6 +13,18 @@ public class Case1 {
 		System.out.println(b);
 		System.out.println(c);
 		
+		int a1 = 2;
+		
+		int b1 = 1;
+		
+		int c1 = a1++ + ++b1 + ++a1 - --a1 + --b1 + a1-- + --b1 ;
+		
+		System.out.println("this is value of a1 "+a1);
+		
+		System.out.println("this is value of b1 "+b1);
+		
+		System.out.println("this is value of c1 "+c1);
+		
 		
 	}
 
