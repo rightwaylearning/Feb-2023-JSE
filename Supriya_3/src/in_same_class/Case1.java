@@ -15,15 +15,15 @@ public class Case1 {
 		System.out.println(n);		
 	}
 	
-	static void m2() {
+	//static void m2() {
 		
-		Case1  c=new Case1();
-		System.out.println(c.x);
-		System.out.println(c.y);
+		//Case1  c=new Case1();
+		//System.out.println(c.x);
+		//System.out.println(c.y);
 		
-		System.out.println(m);
-		System.out.println(n);
-	}
+		//System.out.println(m);
+		//System.out.println(n);
+	//}
 
 }
 
