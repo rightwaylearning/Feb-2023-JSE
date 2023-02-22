@@ -15,7 +15,7 @@ public class Address {
 		this.line1 = line1;
 		
 	}
-	public String getline2() {
+	public String getLine2() {
 		return line2;
 	}
 	
