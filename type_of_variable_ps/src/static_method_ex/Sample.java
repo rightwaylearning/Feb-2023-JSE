@@ -1,0 +1,14 @@
+package static_method_ex;
+
+public class Sample {
+
+		void m1() {
+			System.out.println("I am m1 method (instance method)");
+		}
+		
+		static public void m2() {
+			System.out.println("I am m2 method (static method)");
+		}
+	}
+
+

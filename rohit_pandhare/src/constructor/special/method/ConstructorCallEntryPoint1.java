@@ -11,6 +11,12 @@ public class ConstructorCallEntryPoint1 {
 	
 		Case1 c = new Case1(43);
 		
+//		hai khali ka kela karan parat aasa dhakhavla aasta ki
+//		The constructor Case1() is undefined
+		
+//		yacha aarth class madhe constructor aasa nahi
+		Case1 c1= new Case1();
+		
 		c.m1();
 	}
 }
