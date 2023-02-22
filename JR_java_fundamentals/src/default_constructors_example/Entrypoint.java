@@ -1,4 +1,4 @@
-package constructors_example;
+package default_constructors_example;
 
 public class Entrypoint {
 	
