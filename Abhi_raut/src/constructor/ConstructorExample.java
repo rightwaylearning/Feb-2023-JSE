@@ -13,6 +13,7 @@ public class ConstructorExample {
 		
 		System.out.println(a*a+a);
 		
+		
 	}
 	
 
