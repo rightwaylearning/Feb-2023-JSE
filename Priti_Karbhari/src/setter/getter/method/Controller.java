@@ -5,11 +5,13 @@ public class Controller {
 		
 		Student s = new Student();
 		
-		s.setName("priti");
 		s.setRollNumber(37);
+		s.setName("priti");
+		
 		
 		int rollNumber = s.getRollNumber();
 		String name = s.getName();
+		
 		
 
 		System.out.println(rollNumber);
