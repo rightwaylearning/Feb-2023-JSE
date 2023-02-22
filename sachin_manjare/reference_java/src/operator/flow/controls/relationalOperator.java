@@ -1,16 +1,18 @@
 package operator.flow.controls;
 
 public class relationalOperator {
-	
-	  int a;
-	  int b;
+
 	
 	public static void main(String[]args) {
+
+		  int a=10;
+		  int b=20;
 		
-		 relationalOperator r= new  relationalOperator();
+	
 		 
+		boolean r=a>b;
 		
-	    boolean r = a<b;
+	 
 	
 	     System.out.println(r);
 	
