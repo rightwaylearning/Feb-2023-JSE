@@ -17,7 +17,7 @@ public class Case1 {
 	  static void m2() {
 		  Case1 c = new Case1();
 		  System.out.println(c.x);
-		  System.out.println(c.y);
+		  System.out.println(c.y);    
 		  System.out.println(m);
 		  System.out.println(n);
 	  }
