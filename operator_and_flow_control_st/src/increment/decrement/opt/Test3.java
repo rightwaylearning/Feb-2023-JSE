@@ -1,16 +1,12 @@
 package increment.decrement.opt;
 
-public class Test {
+public class Test3 {
 	
 	public static void main(String[] args) {
-		int a = 10;
-		int b = 20;
-		
-		int c = a++ + ++b;
-		
+		int a = 21;
+		int b = a-- + ++a;
 		System.out.println(a);
 		System.out.println(b);
-		System.out.println(c);
 	}
 	
 
