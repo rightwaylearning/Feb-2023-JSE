@@ -20,6 +20,10 @@ public class ArrayDemo {
 		int[] x =new int[30];          ; // multiple values of same type
 		
 		A[] obj = new A[50]; //
+		
+		
+		//=--------------------------
+		// new opt = to create object / memory
 	}
 
 }
