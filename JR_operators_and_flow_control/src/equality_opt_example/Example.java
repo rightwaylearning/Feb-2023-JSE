@@ -1,7 +1,5 @@
 package equality_opt_example;
 
-import equality.opt.C;
-
 class A{}
 
 	class B{}
