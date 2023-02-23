@@ -4,6 +4,12 @@ public class EntryPointCase1 {
 	
 	public static void main(String[] args) {
 		
+		int a ;
+//		System.out.println(a);
+//		aapn aasa karu nahi shakt karan local var la bydefault 
+//		value naste karan aapn tyala kadhi initilize kartoh nahi 
+//		kartoh tya mule
+		
 		Case1 c =new Case1();
 		
 		System.out.println(c.b);
