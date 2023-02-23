@@ -31,7 +31,8 @@ public class Employee {
 		return adr;
 	}
 
-	public void setAdr(Address adr)
+	public void setAdr(Address adr) // Address is user defined class and adr is a object of that class.so value of adr is 
+	//Address adr= new Address();
 	{
 		this.adr = adr;
 	}
