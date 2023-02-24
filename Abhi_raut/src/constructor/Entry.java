@@ -6,6 +6,8 @@ public class Entry {
 		
 		ConstructorExample c= new ConstructorExample(10);
 		
+		
+		
 	}
 
 }
