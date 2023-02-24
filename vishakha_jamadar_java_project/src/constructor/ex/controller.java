@@ -1,9 +1,9 @@
 package constructor.ex;
 
-public class Entrypoint {
+public class controller {
 	public static void main(String[] args) {
 		
-		A a= new A();
+	
+	B obj=new B(5);
 	}
-
 }
