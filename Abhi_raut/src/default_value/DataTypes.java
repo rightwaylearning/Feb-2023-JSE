@@ -1,22 +1,33 @@
-package default_value_of_identifier_variable;
+package default_value;
 
-public class Case1 {
+public class DataTypes {
+	// default values for instance (primitive and reference type) and 
+	// default values for static are same;
 	
-	byte b ;
-	short s;
-	int i ;
-	long l;
-	float f ;
-	double d;
-	char c;
-	boolean b1;
+	byte b;     // 0
+	short s;     // 0
+	int i;       // 0
+	long l;     // 0
+	float f;    // 0.0
+	double d;   // 0.0 
+	char c;     // empty space []
+	boolean b1; // false
 	
-//	this are primitive type var;
+	String str;  // null
+	Student st;  // null
 	
-//	and following are predefine and userdefine reference type var;
-	
-	String str;
-	Address adr;
+	public String getStr() {
+		return str;
+	}
+	public void setStr(String str) {
+		this.str = str;
+	}
+	public Student getSt() {
+		return st;
+	}
+	public void setSt(Student st) {
+		this.st = st;
+	}
 	public byte getB() {
 		return b;
 	}
@@ -64,18 +75,6 @@ public class Case1 {
 	}
 	public void setB1(boolean b1) {
 		this.b1 = b1;
-	}
-	public String getStr() {
-		return str;
-	}
-	public void setStr(String str) {
-		this.str = str;
-	}
-	public Address getAdr() {
-		return adr;
-	}
-	public void setAdr(Address adr) {
-		this.adr = adr;
 	}
 	
 	
