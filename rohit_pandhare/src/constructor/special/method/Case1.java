@@ -2,6 +2,7 @@ package constructor.special.method;
 
 public class Case1 {
 
+	int a;
 //	if there is no constructor in class then default constructor
 //	only create by compiler not by jvm
 	
@@ -29,5 +30,5 @@ public class Case1 {
 	void m1() {
 		System.out.println("this is method body of m1 and having no paramerters in that");
 	}
-
+     
 }
