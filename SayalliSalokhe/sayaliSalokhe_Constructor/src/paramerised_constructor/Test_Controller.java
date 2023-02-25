@@ -10,11 +10,17 @@ public class Test_Controller {
 		
 		// get name with getter method for single property
 		String name = t.getName();
-		System.out.println(name);
+		System.out.println("getter method read name:"+name);
 
-		
+	//using constructor	
 		String name1 = test.getName();
 		System.out.println(name1);
+		
+		test.setName("neeta");
+		String name2 = test.getName();
+		System.out.println(name2);
+		
+		
 	}
 
 }

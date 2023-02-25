@@ -1,24 +1,16 @@
-package parameterized.constructor;
+package array_java.a23_02;
 
 public class Student {
 
-	private String name;
 	private int rollNumber;
+	private String name;
 
 	public Student() {
-	}
+	} // default constructer
 
-	public Student(String name, int rollNumber) {
-		this.name = name;
+	public Student(int rollNumber, String name) {
+		super();
 		this.rollNumber = rollNumber;
-
-	}
-
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
 		this.name = name;
 	}
 
@@ -28,6 +20,14 @@ public class Student {
 
 	public void setRollNumber(int rollNumber) {
 		this.rollNumber = rollNumber;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
 	}
 
 }
