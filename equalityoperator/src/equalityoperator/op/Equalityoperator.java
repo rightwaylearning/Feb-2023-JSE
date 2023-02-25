@@ -13,7 +13,7 @@ public class Equalityoperator {
 		
 		System.out.println('A'+1=='B');
 		
-		Sysout.
+		System.out.println(false==false);
 		
 		//---------------------------------------------
 		
