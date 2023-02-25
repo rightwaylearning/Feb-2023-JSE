@@ -1,6 +1,6 @@
 package array_Declaration;
 
-public class Contrller_StudentReference_Array {
+public class Controller_StudentReference_Array {
 	
 	public static void main(String[] args) {
 		
@@ -28,7 +28,7 @@ public class Contrller_StudentReference_Array {
 		array[3].setName("Nisha");
 		
     //-----------------------------------------------------------------------------
-		Contrller_StudentReference_Array.printStudentData(array);
+		Controller_StudentReference_Array.printStudentData(array);
 	}
 	
 	public static void printStudentData(StudentReference_Array[] array)
