@@ -20,11 +20,11 @@ public class controller {
 		
 	//.....................................................
 		
-		int empId = E1.getEmpId();
-		System.out.println("Employee Id =" +empId);
+		int id = E1.getEmpId();
+		System.out.println("Employee Id =" +id);
 		
 		String name = E1.getEmpName();
-		System.out.println("Employee Name =" +empName);
+		System.out.println("Employee Name =" +name);
 		
      System.out.println("--------------Address--------------------");
 		
@@ -33,8 +33,8 @@ public class controller {
 		System.out.println("Line 2 = "+adr1.getLine2());
 		System.out.println("Pincode = "+adr1.getPincode());
 		
-		double salary = E1.getSalary();
-		System.out.println("Salary=" +salary);
+		double empsalary = E1.getSalary();
+		System.out.println("Salary=" +empsalary);
 
 		
 	

@@ -19,15 +19,16 @@ public class Controller {
 		  //====read data========================//
 		  
 		  int empId = e.getEmpId();
-		  System.out.println(empId);
+		  System.out.println("Employee Id = " +empId);
 		   
 		  String name = e.getName();
-		  System.out.println(name);
+		  System.out.println("Employee Name = " +name);
+		System.out.println("-----------------------------Address----------------------");
 		  
 		  Address adr1 = e.getAdr();
-		  System.out.println(adr1.getLine1());
-		  System.out.println(adr1.getLine2());
-		  System.out.println(adr1.getPin());
+		  System.out.println("Line 1 = " +adr1.getLine1());
+		  System.out.println("Line 2 = " +adr1.getLine2());
+		  System.out.println("Pin = " +adr1.getPin());
 	}
 
 }
