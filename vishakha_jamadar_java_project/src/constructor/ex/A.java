@@ -1,9 +1,8 @@
 package constructor.ex;
 
 public class A {
-	
+	A(){
+		System.out.println("i am developer");
+	}
 
-	void m1() {
-System.out.println("helo i am devloper");
-    }
-    }
+}
