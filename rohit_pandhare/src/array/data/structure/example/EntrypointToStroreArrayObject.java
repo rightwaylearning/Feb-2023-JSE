@@ -10,7 +10,7 @@ public class EntrypointToStroreArrayObject {
 		                            
 		                           
 		Employee e1 = new Employee(32,"Ravi");
-				
+				e1.setEmpId(34);
 		e[0]= e1;
 		
 		Employee e2 = new Employee();
@@ -45,5 +45,16 @@ public class EntrypointToStroreArrayObject {
 			System.out.println(">>>>>>>>>>>>>>>>>>>");
 			i++;
 		}
+		
+		System.out.println("<<<<<this is method call giving or passing object argument to that method>>>>>>>>>>>>");
+		EntrypointToStroreArrayObject.m1(e);
 	}
+	
+	public static void m1(Employee[] e) {
+		
+		System.out.println("this is Employee id = "+e[0].getEmpId());
+		System.out.println("this is Employee name = "+e[0].getEmpName());
+		
+	}
+	
 }
