@@ -1,4 +1,4 @@
-package conditional_operator;
+package if_conditional_operator;
 
 public class Test {
 	
