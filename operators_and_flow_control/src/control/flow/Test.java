@@ -5,11 +5,16 @@ public class Test {
    	
 	
 	public static void main(String[] args) {
-		
-		
-		 // Join evening 8:15 pm 
-		// thanks, good day
-	
+	  System.out.println(">>>>>>>>>>>>>>>>>> start");
+          int i = 1; 	  
+	      
+           while(i <= 5) {
+        	   System.out.println("hello");
+        	   i= i +1; // OR i++
+           }
+          
+	  
+	  System.out.println(">>>>>>>>>>>>>>>>>> end");
 	}
 
 }
