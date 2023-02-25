@@ -4,6 +4,7 @@ public class Student {
 	
 	private String name;
 	private int rollNumber;
+	public int rollNo;
 	
 	public void setName(String name) {
 		this.name = name;
