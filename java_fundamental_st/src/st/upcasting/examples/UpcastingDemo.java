@@ -8,8 +8,8 @@ public class UpcastingDemo {
 		double d = ch;
 		System.out.println(d);
 		
-		short s = 1;
-		byte b = s;  //type mismatch: cannot convert from short to byte
+//		short s = 1;
+//		byte b = s;  //type mismatch: cannot convert from short to byte
 	}
 
 }
