@@ -23,21 +23,19 @@ public class EmployeeTest {
 		 
 		 emp[3]= new Employee(486,"Sunder","Amazon");
 		 
-		 EmployeeTest.PrintEmp(emp);
 		 
-		int i=0;
-		while(i<=3) {
-			System.out.println(emp.length);
-		}
-		 
-		
-	}
+		int i = 0;
+		  
+		  while(i < emp.length){
+			 
+			  System.out.println("employee id = "+emp[i].getEmpid());
+			  System.out.println("employee name = "+emp[i].getName());
+			  System.out.println("company name = "+emp[i].getCompany());
+			  System.out.println(".................+........+...........");
+			  
+			  i++;
+	     }
 	
-	public static void PrintEmp(Employee[] emp) {
-		System.out.println(emp[0].getEmpid());
-		System.out.println(emp[0].getName());
-		System.out.println(emp[0].getCompany());
-		
-	}
-
-}
+   }
+		    
+}                                                           
