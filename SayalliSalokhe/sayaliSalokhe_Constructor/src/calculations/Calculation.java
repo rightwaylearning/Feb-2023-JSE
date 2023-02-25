@@ -1,4 +1,4 @@
-package parametrised_Constructor;
+package calculations;
 
 public class Calculation {
 	private int a;
