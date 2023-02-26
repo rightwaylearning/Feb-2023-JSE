@@ -9,7 +9,7 @@ public class C {
 	public class D{
 		
 	
-C(int b){
+D(int b){
 	System.out.println(b+b);
 }
 	}
