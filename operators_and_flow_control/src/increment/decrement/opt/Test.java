@@ -4,8 +4,12 @@ public class Test {
 
 	public static void main(String[] args) {
 		
-		int a =10;
-		int b = 20;
+		int a = 10;
+		int b = a--; 
+		System.out.println(a);
+		
+		int a1 =10;
+		int b1 = 20;
 		
 		int c = --a + ++b + b++ + b--;
 		
