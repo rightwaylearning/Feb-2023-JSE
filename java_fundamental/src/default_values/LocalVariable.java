@@ -9,12 +9,12 @@ public class LocalVariable {
 		System.out.println(j);
 		
 		LocalVariable obj = new LocalVariable();
-		obj.m1();
+		obj.m1(10,20);
 	}
 	
-	void m1() {
-		int a;
-		int b;
+	void m1(int a, int b) {
+		int a1;
+		int b1;
 		System.out.println(a);
 		System.out.println(b);
 		
