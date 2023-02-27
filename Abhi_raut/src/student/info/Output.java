@@ -50,13 +50,32 @@ public class Output {
 			   i++;
 	   }
 		   
-		   Address[] adr = s.getAddress();
-		  System.out.println("..........Student Address.........");
+		   School school = s.getSchool();
+		     System.out.println(".............School Information............");
+		       
+		       System.out.println("School Reg.No = "+school.regNo);
+		       System.out.println("School Name = "+ school.schoolName);
+		       
+               System.out.println(".............School Address................");
+               
+               System.out.println("landmark = "+school.schoolAdr);
 		   
-		 int j = 0;
-		 while(j<adr.length) {
-			 System.out.println(adr[j]);
-			 j++;
+               
+               
+		   Address[] adr = s.getAddress();
+		  System.out.println("..........Student (permanant) Address.........");
+		   
+             System.out.println("Landmark = "+adr[0].landmark);
+		     System.out.println("Area = "+adr[0].area);
+		     System.out.println("PinCode = "+adr[0].pinCode);
+		     
+		  System.out.println("...........Student (current) Address...........");
+		  
+		     System.out.println("Landmark = "+adr[1].landmark);
+		     System.out.println("Area = "+adr[1].area);
+		     System.out.println("PinCode = "+adr[1].pinCode);
+		     
+		     
 		 }
 		  }
          
@@ -73,7 +92,7 @@ public class Output {
 		   
 		   
 		   
-	   }
+	   
 	
 	
 	
