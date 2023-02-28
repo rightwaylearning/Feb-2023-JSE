@@ -3,17 +3,16 @@ package var.arg.method;
 public class VarArg {
      // var-arg method 
 		
-	public void multiply(int... arr) {
+	public void sum(int... add)	{
 		
-		int index = 0;
-		int multiply = 0;
+		int i=0;
 		
-		while(index< arr.length) {
-			multiply = multiply * arr[index];
-			index++;
+		
+		while(i<add.length) {
+			System.out.println(add[add.length-1]);
+			
 		}
-		  System.out.println("total = "+ multiply);
+		
+		
 	}
-	
-	
 }
