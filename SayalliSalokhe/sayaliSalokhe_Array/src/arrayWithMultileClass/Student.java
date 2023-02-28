@@ -3,7 +3,7 @@ package arrayWithMultileClass;
 public class Student {
 	private int rollNo;
 	private String name;
-	private Address[] adr;
+	private Address adr;
 	private int[] marks;
 	private School school;
 
@@ -12,7 +12,7 @@ public class Student {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Student(int rollNo, String name, Address[] adr, int[] marks, School school) {
+	public Student(int rollNo, String name, Address adr, int[] marks, School school) {
 		super();
 		this.rollNo = rollNo;
 		this.name = name;
@@ -37,11 +37,11 @@ public class Student {
 		this.name = name;
 	}
 
-	public Address[] getAdr() {
+	public Address getAdr() {
 		return adr;
 	}
 
-	public void setAdr(Address[] adr) {
+	public void setAdr(Address adr) {
 		this.adr = adr;
 	}
 
