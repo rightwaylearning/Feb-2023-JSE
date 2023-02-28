@@ -13,6 +13,6 @@ public class SumArrayElement {
 			  index++;
 			 
 		 }
-		 System.out.println(sum);
+		 System.out.println("Total = " + sum);
 	}
 }
