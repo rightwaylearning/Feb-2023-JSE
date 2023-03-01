@@ -1,4 +1,6 @@
-package student.info;
+package student;
+
+
 
 public class InputOutput {
 
@@ -15,10 +17,10 @@ public class InputOutput {
 	
 	public Address[] getAddress() {
 		Address[] address = new Address[2];
-	     Address a1 =new Address("ganesh nagar" , "Raj Nagar" ,"Nanded",431602);
+	     Address a1 =new Address("ganesh nagar" , " Nagar" ,"SASAR",431602);
 	     address[0] = a1;
         
-	     Address a = new Address("vijay nagar" , "khushi Nagar" ,"Nanded",430000);
+	     Address a = new Address("vijay " , " Nagar" ,"Nan",430000);
 	     address[1] = a;
         
 //	     Address[] adr = {a1,a};
@@ -31,7 +33,7 @@ public class InputOutput {
 		     school.setSchoolName("Mahatma Phule");
 		     
 		     school.setRegNo("432/343/434/dd");
-		                           Address adr = new Address("Vijay Nagar","Near Padma bakery","nanded",431602);
+		                           Address adr = new Address(" Nagar","Near Padma ","KADA",431602);
 		     school.setSchoolAddress(adr);
 
 		     return school;
