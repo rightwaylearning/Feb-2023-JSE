@@ -59,14 +59,14 @@ public class InputOutput {
 		
 		System.out.println("<<<<<<<<student Address 1 start>>>>>>>>");
 		
-		Address[] address = s.getAddress();		
+	
+		System.out.println("<<<<<<<<student Address 1 over>>>>>>>>");
+
+			Address[] address = s.getAddress();		
 		System.out.println("Name of City = "+address[0].getCity());
 		System.out.println("Address line1 = "+address[0].getLine1());
 		System.out.println("Address line2 = "+address[0].getLine2());
 		System.out.println("Pincode = "+address[0].getPinCode());
-		
-		System.out.println("<<<<<<<<student Address 1 over>>>>>>>>");
-
 		System.out.println("<<<<<<<<student Address 2 start>>>>>>>>");
 		
 	     

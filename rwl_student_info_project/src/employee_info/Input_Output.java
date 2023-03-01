@@ -3,70 +3,87 @@ package employee_info;
 public class Input_Output {
 
 	public Address employeeAdress() {
+		
 		Address adr = new Address();
-		adr.setLine1("Sr No 529/2, Plot No 15");
-		adr.setLine2("Shivraje Society dhabhade Wasti Charaholi");
-		adr.setPin(411039);
-
+		adr.setLine1("Pune");
+		adr.setLine2("Near Wagholi");
+		adr.setPin(4322333);
+		
+		
 		return adr;
+		
 	}
+	
+    public Company getCompanyInfo() {
+    	
+    	Company company = new Company();
+    	company.setAdr(new Address("b.a baif", "wagholi", 3223323));
+    	company.setCompanyName("infosys");
+    	company.setGstNo("432/323/434/323");
+    	
+    	
+    	return company;
+    }
+    
+    public int[] get_SalaryDetails() {
+    	
+    	int[] salary = new int[3];
+    	salary[0]= 43222;
+    	salary[1] = 32343;
+    	salary[2] = 323223;
+    	
+    	
+    	return salary;
+    	
+    }
+	
+    public void printEmployeeInfo(Employee e) {
+    	
+    	System.out.println(e.getName());
+    	System.out.println("Check karne ke liye getClass kya hota hai = "+e.getClass());
+    	System.out.println(e.getDoj());
+    	
+    	System.out.println("<<<<<<<<<<<<Employeeeee Address>>>>>>>>>>>");
+    	Address adr=e.getAdr();
+    	
+    	System.out.println(adr.getLine1());
+    	System.out.println(adr.getLine2());
+    	System.out.println(adr.getPin());
+    	
+    	System.out.println("<<<<<<<<<<Address Over>>>>>>>>>>");
+    	
+    	System.out.println("<<<<<<<<<<<<Company Info>>>>>>>>>");
+    	
+    	Company company = e.getCom();
+    	System.out.println(company.getCompanyName());
+    	System.out.println(company.getGstNo());
+    	System.out.println(company.getAdr().getLine1());
+    	System.out.println(company.getAdr().getLine2());
+    	System.out.println(company.getAdr().getPin());
+      
+    	System.out.println("<<<<<<<<<Company Info over>>>>>>>>");
+    	
+    	System.out.println("<<<<<<<<<Salary Details>>>>>>>>>>");
 
-	public Company getCompanyInfo() {
-		Company c = new Company();
-		c.setCompanyName("TCS");
-		c.setGstNo("33AAACR4849R4ZP");
-		Address adr = new Address();
-		adr.setLine1("Maan, Sahyadri Park, Plot No. 2 & 3, Phase 3");
-		adr.setLine2(" Rajiv Gandhi Infotech Park, Maan, Hinjawadi, Pune, Maharashtra");
-		adr.setPin(411057);
-		c.setAdr(adr);
-
-		return c;
-
-	}
-
-	public int[] get_SalaryDetails() {
-
-		int[] last_3_month_salary = new int[3];
-		last_3_month_salary[0] = 50000;
-		last_3_month_salary[1] = 50500;
-		last_3_month_salary[2] = 50200;
-
-		return last_3_month_salary;
-	}
-
-	public void printEmployeeInfo(Employee e) {
-
-		System.out.println("Employee Name -" + e.getName());
-		System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>Employee Address Start>>>>>>>>>>>>>>>>>>>>");
-		System.out.println("Employe Address line 1 -" + e.getAdr().getLine1());
-		System.out.println("Employe Address line 2 -" + e.getAdr().getLine2());
-		System.out.println("Employe Address pincode -" + e.getAdr().getPin());
-		System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>Employee Address End>>>>>>>>>>>>>>>>>>>>");
-		System.out.println();
-		System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>Employee Company Info Start>>>>>>>>>>>>>>>>>>>>");
-		System.out.println("Company Name -" + e.getCom().getCompanyName());
-		System.out.println("Company Name -" + e.getCom().getGstNo());
-		System.out.println("Company Address");
-		System.out.println("Company Name -" + e.getCom().getAdr().getLine1());
-		System.out.println("Company Name -" + e.getCom().getAdr().getLine2());
-		System.out.println("Company Name -" + e.getCom().getAdr().getPin());
-		System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>Employee Company Info End>>>>>>>>>>>>>>>>>>>>");
-		System.out.println();
-		System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>Employee Salary Info Start>>>>>>>>>>>>>>>>>>>>");
-		System.out.println("Employee Salary");
-		System.out.println("Employee Date Of Joining  =" + e.getDoj());
-		String[] month = { "DEC-2022", "JAN-2023", "FEB-2023" };
-		int[] salary = e.getSalary();
-		int i = 0;
-		while (i < salary.length) {
-			System.out.println(month[i] + "=" + salary[i]);
-			i++;
-
-		}
-
-		System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>Employee Salary Info End>>>>>>>>>>>>>>>>>>>>");
-
-	}
-
+    	String[] str = new String[3];
+    	str[0]= "Dec2022";
+    	str[1]= "Jan2023";
+    	str[2]= "Feb2023";
+    	
+    	int[] salary =e.getSalary();
+    	
+    	int i = 0 ;
+    	while(i < salary.length ) {
+    		System.out.println(str[i] + " = " + salary[i]);
+    		i++;
+    	}
+    	
+    	
+    	System.out.println("<<<<<<<<Details Over>>>>>>>>>>>");
+    	
+    	
+    
+    }
+    
+    
 }
