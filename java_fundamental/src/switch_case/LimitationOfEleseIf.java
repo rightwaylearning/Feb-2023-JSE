@@ -4,7 +4,7 @@ public class LimitationOfEleseIf {
 
 	public static void main(String[] args) {
 
-		int num = 170;
+		int num = 50;
 
 		if (num == 10) {
 			System.out.println("Mathc is found for 10");
