@@ -11,6 +11,13 @@ public class if_else_program {
 		}else {
 			System.out.println("I M Flase Part");
 		}
+		
+		/*int s1 =10; //Type mismatch: cannot convert from int to boolean
+		if(s1) {
+			System.out.println("i m true part");
+		}else {
+			System.out.println("i m false part");
+		}*/
 				
 				
 	}
