@@ -13,7 +13,7 @@ public class SwitchWithLabel {
 		/*//----------------------------------------------------
 		 * Type mismatch: cannot convert from int to byte 
 		 * case 180000: {
-		 * System.out.println("no is 180000");
+		 *System.out.println("no is 180000");
 		 *  break;
 		 *   }
 		 */
