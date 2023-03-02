@@ -14,11 +14,13 @@ public class Test1 {
 	System.out.println("sum: "+(19+31+31+32));
 	
 	
-	//int z= --x + ++y + y++ + y--;
+	int z= --x + ++y + y++ + y--;
 	
-	//System.out.println("\nX is:"+x);
-	//System.out.println("Y is:"+y);
-	//System.out.println("Z is:"+z);
+	System.out.println("\nX is:"+x);
+	System.out.println("Y is:"+y);
+	System.out.println("Z is:"+z);
+	
+		
 	
 	
 	}

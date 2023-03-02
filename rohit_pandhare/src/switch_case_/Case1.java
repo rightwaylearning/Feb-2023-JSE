@@ -64,7 +64,7 @@ public class Case1 {
 			System.out.println("hello this is Shraddha");
 			break;
 		}
-		case "rahul " : {
+		case "rahul": {
 			System.out.println("hello this is rahul");
 			break;
 		}
