@@ -8,8 +8,8 @@ public class Employee_Controller {
 
 		Employee e = new Employee();
 		e.setName("Swapnil Satyavan Vyavahare");
-		e.setAdr(i.employeeAdress());
-		e.setCom(i.getCompanyInfo());
+		e.setAdr(i.employeeAdress()); //adr
+		e.setCom(i.getCompanyInfo()); //company return
 		e.setDoj("28-NOV-2022");
 		e.setSalary(i.get_SalaryDetails());
 
