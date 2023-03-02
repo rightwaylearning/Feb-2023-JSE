@@ -1,20 +1,21 @@
 package student_array_operation;
 
 public class PrinterUtility {
-
+	
 	public static void print(Employee[] arr) {
 		
 		int index = 0;
 		
 		while(index < arr.length) {
 			
-			System.out.println(arr[index].getEmployeeName());
+			System.out.println(arr[index].getEmployeeId());
 			System.out.println(arr[index].getEmployeeName());
 			System.out.println(arr[index].getEmployeeSalary());
 			
 			index++;
-			System.out.println("---------------------------");
+			System.out.println("....................");
 		}
 	}
 	
 }
+
