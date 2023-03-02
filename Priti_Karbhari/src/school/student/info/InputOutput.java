@@ -60,14 +60,14 @@ public class InputOutput {
 			
 			System.out.println("***** Student Address Over*****");
 			
-			System.out.println("<<<<<School Information>>>>>");
+			System.out.println("<<<<< School Information >>>>>");
 			
 			School school = s.getSchool();
 			System.out.println("School reg No = " +school.getRegNo());
 			
 			System.out.println("School Name = " + school.getSchoolName());
 			
-			System.out.println("<<<<<<School Address Info>>>>>");
+			System.out.println("<<<<<< School Address Info >>>>>");
 			
 			Address adr = school.getSchoolAddress();
 			System.out.println(adr.getLine1());
