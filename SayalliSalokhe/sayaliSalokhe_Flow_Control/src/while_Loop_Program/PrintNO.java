@@ -1,16 +1,16 @@
 package while_Loop_Program;
 
 public class PrintNO {
-	public static int printnum(int no) {
+	public static void main(String[] args) {
 		int i=0;
-		while(i<=no)
+		while(i<10)
 		{
-			no=no+i;
 			i++;
+			System.out.println(i);
 		}
-		System.out.println(no);
-		return no;
+		
+	}		
 		
 	}
 
-}
+
