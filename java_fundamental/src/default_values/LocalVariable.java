@@ -13,8 +13,8 @@ public class LocalVariable {
 	}
 	
 	void m1() {
-		int a;
-		int b;
+		int a = 30;
+		int b = 20;
 		System.out.println(a);
 		System.out.println(b);
 		
