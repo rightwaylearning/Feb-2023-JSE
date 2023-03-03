@@ -1,0 +1,26 @@
+package else_if_example;
+
+public class Consultant {
+	
+	
+		
+	public ClassRoom advice(int ageInMonths) {
+	ClassRoom classRoom = null;
+	
+	
+	if (24 <= ageInMonths && ageInMonths < 36) {
+	 classRoom= new ClassRoom("play group", 24, 36, 40000.00);
+	}
+	if (36 <= ageInMonths && ageInMonths < 36) {
+		 classRoom= new ClassRoom("Nursary",36,48,45000.00);
+	}
+	if (48 <= ageInMonths && ageInMonths < 36) {
+		 classRoom=new ClassRoom("LKG",48,60,50000.00);
+	}
+	
+	if (60 <= ageInMonths && ageInMonths < 36) {
+		 classRoom=new ClassRoom("UKG",60,72,70000.00);
+	}
+	return classRoom;
+	}
+}
