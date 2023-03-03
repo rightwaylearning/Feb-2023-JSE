@@ -4,10 +4,62 @@ public class School
 {
 	private String regNumber;
 	private String schoolName;
-	private Address address;
+	private Address schoolAddress;
 	
+	public Address getSchoolAddress() {
+		return schoolAddress;
+	}
+
+	public void setSchoolAddress(Address schoolAddress) {
+		this.schoolAddress = schoolAddress;
+	}
+
 	public School()
 	{
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 	}
 
@@ -27,19 +79,13 @@ public class School
 		this.schoolName = schoolName;
 	}
 
-	public Address getAddress() {
-		return address;
-	}
+	
 
-	public void setAddress(Address address) {
-		this.address = address;
-	}
-
-	public School(String regNumber, String schoolName, Address address) {
+	public School(String regNumber, String schoolName, Address schoolAddress) {
 		super();
 		this.regNumber = regNumber;
 		this.schoolName = schoolName;
-		this.address = address;
+		this.schoolAddress = schoolAddress;
 	}
 	
 
