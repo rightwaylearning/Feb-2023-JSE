@@ -27,16 +27,25 @@ public class Controller {
 			arr[3].setEmployeeSalary(20000.00);
 		//..........................
 	
-			System.out.println("before salary increment");
+			System.out.println("Before salary increment");
 		    PrinterUtility.print(arr);
 		    
-		    //10% increment salary
+		    double sal;
+		     sal=e1.getEmployeeSalary();
+		    e1.setEmployeeSalary(sal+(sal*10/100));
 		    
+		    sal=e2.getEmployeeSalary();
+		    e2.setEmployeeSalary(sal+(sal*10/100));
 		    
-		    System.out.println("after salary increment");
+		    sal=arr[2].getEmployeeSalary();
+		    arr[2].setEmployeeSalary(sal+(sal*10/100));
+		    
+		    sal=arr[3].getEmployeeSalary();
+		    arr[3].setEmployeeSalary(sal+(sal*10/100));
+		    
+		    System.out.println("After salary increment");
 		    PrinterUtility.print(arr);
 		    
-		
 	}
 
 }

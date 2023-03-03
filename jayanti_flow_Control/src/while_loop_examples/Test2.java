@@ -8,7 +8,7 @@ public class Test2 {
 		
 		while (number <=19) {
 		
-		if (number%3 == 0) {
+		if (number%3 == 1) {
 			number++;
 			
 		}
