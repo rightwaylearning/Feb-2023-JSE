@@ -4,7 +4,7 @@ public class NameMatch {
 
 	public static void main(String[] args) {
 
-		String name = "Nayntara";
+		String name = "urvashi";
 
 		switch (name) {
 
