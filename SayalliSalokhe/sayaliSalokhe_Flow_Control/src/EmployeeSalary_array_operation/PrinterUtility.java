@@ -31,8 +31,9 @@ public class PrinterUtility {
 			index++;
 
 			System.out.println(increaseSalary);
+			
 		}
-		System.out.println(increaseSalary);
+		System.out.println("---------------------------------------");
 	}
 
 }
