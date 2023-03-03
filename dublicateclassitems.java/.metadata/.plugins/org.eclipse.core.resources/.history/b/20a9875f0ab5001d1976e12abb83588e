@@ -1,0 +1,42 @@
+package employee.aarry;
+
+ public class Employee1 {
+	
+      public static void main(String[] args) {
+		
+	Employee[] arr = new Employee[4];
+		
+		//====================================
+		
+	Employee e = new Employee();
+			e.setEmpId(10);
+			e.setEmpName("A");
+		arr[0] = e;
+		
+		//======================================
+		Employee s1 = new Employee(11,"B");
+		arr[1] = s1;
+		
+		//========================================
+		
+		arr[2] = new Employee();
+			arr[2].setEmpId(12);
+			arr[2].setEmpName("C");
+	    //===========================================
+			
+		arr[3] = new Employee(13,"D");
+		
+		//-----------------------------------------
+		Employee1.printStudentData(arr);
+	}
+	
+	
+    public static void printStudentData(Employee[] arr) {
+    	
+    	System.out.println(arr[1].getEmpName());
+    	System.out.println(arr[1].getEmpId());
+    }	
+}
+
+
+
