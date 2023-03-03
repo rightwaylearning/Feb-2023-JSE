@@ -10,8 +10,8 @@ public static void main(String[] args) {
 		{
 			int b = 200;
 		}
-		System.out.println(b);
+		//System.out.println(b);
 	}
-	System.out.println(a);
+	//System.out.println(a);
 }	
 }

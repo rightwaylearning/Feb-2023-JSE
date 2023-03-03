@@ -7,7 +7,7 @@ public class Controller {
 		EmployeeDetails e = new EmployeeDetails();
 		
 		 e.employeeName = "santosh jadhav";
-		 e.employeeAddress = "sadashiv peth pune";
+		 e.employeeAddress = "pune";
 		 e.employeeId   = 206;
 		  
 		   e.employeeInfo();
