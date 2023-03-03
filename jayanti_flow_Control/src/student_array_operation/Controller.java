@@ -25,24 +25,8 @@ public class Controller {
 			arr[3].setEmployeeId(4);
 			arr[3].setEmployeeName("Poonam Pawar");
 			arr[3].setEmployeeSalary(20000.00);
-		//..........................public static void print(Employee[] arr) {
-		
-		int index = 0;
-		
-		while(index < arr.length) {
-			
-			System.out.println(arr[index].getEmployeeId());
-			System.out.println(arr[index].getEmployeeName());
-			System.out.println(arr[index].getEmployeeSalary());
-			
-			index++;
-			System.out.println("---------------------------");
-		}
-	}
+		//..........................
 	
-}
-		
-			
 			System.out.println("before salary increment");
 		    PrinterUtility.print(arr);
 		    
