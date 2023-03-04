@@ -18,9 +18,9 @@ public class Case {
 	final	int i3 = 1;
 		
 //	kela tr compile time constant rahate yachi value
-//		aata yala aapn local madhe output kadhu nahu shakat 
+
 		
-		for(int i2 = 0 ; i< 10 ; i++) {
+		for(int i2 = 0 ; i2< 10 ; i2++) {
 			System.out.println( i3);
 		}
 	
