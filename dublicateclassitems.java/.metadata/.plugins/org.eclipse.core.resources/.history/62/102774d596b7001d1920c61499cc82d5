@@ -1,0 +1,12 @@
+package else_if_example;
+
+public class Consultant {
+	
+	public static void main(String[] args) {
+		
+	public ClassRoom advice(int ageInMonth) {
+	ClassRoom classroom=null;
+	
+	}
+}
+}
