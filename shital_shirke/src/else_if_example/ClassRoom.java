@@ -35,11 +35,11 @@ public class ClassRoom {
 	}
 
 	public int getUpperAge() {
-		return upperAge;
+		return uperAge;
 	}
 
 	public void setUpperAge(int upperAge) {
-		this.upperAge = upperAge;
+		this.uperAge = upperAge;
 	}
 
 	public double getFees() {
