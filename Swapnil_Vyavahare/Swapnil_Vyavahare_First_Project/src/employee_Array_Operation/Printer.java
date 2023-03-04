@@ -24,6 +24,7 @@ public class Printer {
 		while (index1 < arr.length) {
 			
 			double salary = arr[index1].getEmpSalary()+arr[index1].getEmpSalary()*0.1;
+			
 			arr[index1].setEmpSalary(salary);
 			System.out.println("Empoyee ID ="+arr[index1].getEmpId());
 			System.out.println("hi " +arr[index1].getEmpName() + " Congratulation ");

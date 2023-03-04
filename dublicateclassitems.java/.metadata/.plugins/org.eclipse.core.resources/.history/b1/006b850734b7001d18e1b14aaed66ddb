@@ -1,0 +1,51 @@
+package var.arg.method;
+
+public class EvenNo {
+	
+	
+	public static void main(String[]args) {
+	
+	int[]a= {21,22,23,24,25,26};
+	int sum=0;
+	int i=0;
+	int len=a.length ;
+	
+	     System.out.println("Even no are");	
+	     while(i<len) {
+	
+			if(a[i]%2==0) {
+		    System.out.println(+a[i]);	
+		     sum=sum+a[i];
+	}
+				
+			i++;
+	 }			
+	     System.out.println("sum of no   " +sum);		
+	     System.out.println("value is="+i);
+			 {
+					
+				
+				}
+				
+			
+				
+	}	
+				
+}		
+			
+			
+			
+			
+			
+			
+	
+	
+	
+	 
+		 
+		 
+		 
+		 
+	 
+	
+
