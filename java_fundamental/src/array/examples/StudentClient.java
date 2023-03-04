@@ -31,9 +31,13 @@ public class StudentClient {
 	}
 	
 	
+	
+	
     public static void printStudentData(Student[] arr) {
     	
     	System.out.println(arr[1].getName());
     	System.out.println(arr[1].getRollNumber());
     }	
+    
+    
 }
