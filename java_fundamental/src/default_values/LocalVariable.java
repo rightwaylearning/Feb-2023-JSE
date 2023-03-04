@@ -12,9 +12,15 @@ public class LocalVariable {
 		obj.m1(10,20);
 	}
 	
+<<<<<<< HEAD
+	void m1() {
+		int a = 30;
+		int b = 20;
+=======
 	void m1(int a, int b) {
 		int a1;
 		int b1;
+>>>>>>> 8bde6db531965f2dda0aaae705e574de20e3b7e5
 		System.out.println(a);
 		System.out.println(b);
 		
