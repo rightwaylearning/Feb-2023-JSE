@@ -1,0 +1,65 @@
+package var.arg.method;
+
+public class EvenNo {
+	
+	
+	public static void main(String[]args) {
+	
+	int[]a= {21,22,23,24,25,26};
+
+	
+	    int l=a.length; 
+	 int sum=0;
+     int i=0;
+
+	 System.out.println("Even no are");	
+	     while(i<l) {
+	
+			if(a[i]%2 == 0) {
+		    System.out.println(a[i]);	
+		     sum=sum+a[i];
+	}
+				
+			i++;
+	 }			
+	     System.out.println("sum of no  " +sum);		
+	     System.out.println("value i is="+i);
+			 
+		
+	   
+	     int oddsum=0;
+	     int i1=0;
+	     System.out.println("odd no are");	
+	     while(i1<l) {
+	
+			if(a[i1]%2 != 0) {
+		    System.out.println(+a[i1]);	
+		     oddsum=oddsum+a[i1];
+	}
+				
+			i1++;
+	 }		
+	     
+	     System.out.println("sum of even no " +sum);	
+	    System.out.println("sum of odd no " +oddsum);		
+	     
+}	
+				
+}		
+			
+			
+			
+			
+			
+			
+	
+	
+	
+	 
+		 
+		 
+		 
+		 
+	 
+	
+
