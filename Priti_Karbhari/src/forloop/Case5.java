@@ -1,12 +1,12 @@
 package forloop;
 
-public class Case4 {
+public class Case5 {
 	
 	public static void main(String[] args) {
 		
-		int[] arr = {12,11,23,22,34,33,45,44,56,55,67,55,68,77};
+		String[] arr = {"aa","cc","dd","ff","hh","uu","pp"};
 		
-		int target =44;
+		String target = "dd";
 		
 		for (int i = 0; i < arr.length; i++) {
 			
