@@ -6,16 +6,16 @@ public class Case6 {
 		
 		boolean b = true;
 		
-//		if(b)
-//		int i = 10;
+	//	if(b)
+	//	int i = 10;
 		
 		
 		while(b)
 		System.out.println("Hi");	
 		
 		
-		while(b)
-		int  i =100;	
+		while(b);
+		int  i = 100 ;	
 		
 	}
 }
