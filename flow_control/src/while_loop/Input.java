@@ -1,7 +1,5 @@
 package while_loop;
 
-import java.security.DomainCombiner;
-
 public class Input {
 
 	public static void print (Employee[] emp) {
