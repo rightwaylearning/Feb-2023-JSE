@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="D:\main java project\Feb-2023-JSE\rwl_flow_control"/>
+			<item value="D:\main java project\Feb-2023-JSE\rwl_student_info_project"/>
+			<item value="D:\main java project\Feb-2023-JSE\java_fundamental"/>
+			<item value="D:\main java project\Feb-2023-JSE\rwl_upcasting_example"/>
+			<item value="D:\main java project\Feb-2023-JSE\tyep_of_variable"/>
+			<item value="D:\main java project\Feb-2023-JSE\rwl_30_Jan_identifiers"/>
+			<item value="D:\main java project\Feb-2023-JSE\RWl_first_Program"/>
+			<item value="D:\main java project\Feb-2023-JSE\RWL_First_project"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="154"/>
+		<item key="DIALOG_Y_ORIGIN" value="134"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+	<section name="NewWizardAction">
+	</section>
+</section>

@@ -3,8 +3,8 @@ package student.info.project;
 public class Student {
 	private int rollNumber;
 	private String studentName;
-	private Address[] address;
 	private int[] marks;
+	private Address[] address;
 	private School school;
 
 	public Student() {
@@ -59,5 +59,6 @@ public class Student {
 	public void setSchool(School school) {
 		this.school = school;
 	}
+	 
 
 }

@@ -6,9 +6,9 @@ public class IfElse6 {
 		int a = 10;
 		if(a == 10)
 			
-			int b1 = 22;
+			//int b1 = 22;
 			
-		else
+		//else
 			System.out.println("I am false part");
 		//Note: without bracket we can write one line but that line should not be declarative statement e.g int a = 10;
 	}

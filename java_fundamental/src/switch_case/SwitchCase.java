@@ -3,7 +3,7 @@ package switch_case;
 public class SwitchCase {
 
 	public static void main(String[] args) {
-		int num = 170;
+		int num = 200;
 		
 		switch(num) {
 		
@@ -45,10 +45,17 @@ public class SwitchCase {
 		}
 		case 100:{
 			System.out.println("match is found for 100");
+			
 			break;
+		}	
+		case 170:{
+			System.out.println("match is not found");
+			
+			break;	
+			
 		}
 		default:{
-			System.out.println("no match found");
+			System.out.println("match not found");
 		}
 	  }
 	}
