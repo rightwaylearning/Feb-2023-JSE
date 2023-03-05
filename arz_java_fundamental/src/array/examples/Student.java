@@ -5,7 +5,7 @@ public class Student {
 	private int rollNumber;
 	private String name;
 
-	public student() {}
+	public Student() {}
 
 	public Student(int rollNumber, String name) {
 		super();

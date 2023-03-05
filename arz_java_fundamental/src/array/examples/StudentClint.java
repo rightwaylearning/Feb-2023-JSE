@@ -32,7 +32,6 @@ public class StudentClint {
 		StudentClint.printStudentData(arr);	
 	}
 
-	   public static voide printStudentData(Student[]) {
-		   
-	}
+	   
 }
+
