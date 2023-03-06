@@ -38,9 +38,13 @@ public class EntryPoint {
 //			1000+(1000*10/100)
 			
 			double presentSalary = arr[i].getEmpSalary() + (arr[i].getEmpSalary()*10/100);
+//			
+			
 //			aata ji get salary madhun je aala te set karav lagel na tya mule 
 			
 //			arr[0].setEmpSalary(47323.33);
+//			
+			
 //			arr[1].setEmpSalary(57323.33);
 //			ya madhe aata set keleli value yete 
 			arr[i].setEmpSalary(presentSalary);
