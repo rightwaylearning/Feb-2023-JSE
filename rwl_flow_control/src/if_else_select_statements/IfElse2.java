@@ -13,6 +13,7 @@ public class IfElse2 {
 		    System.out.println("$$$$$$$$$$$$$$$$$$$$$$$$");
         
 		*/
+		
 		int i = 100;
 		if(i==90);
 		 System.out.println("I am true part");

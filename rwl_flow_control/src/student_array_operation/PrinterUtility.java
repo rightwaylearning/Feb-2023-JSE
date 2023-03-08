@@ -8,13 +8,16 @@ public class PrinterUtility {
 		
 		while(index < arr.length) {
 			
-			System.out.println(arr[index].getEmployeeNumber());
+			System.out.println(arr[index].getEmployeeName());
 			System.out.println(arr[index].getEmployeeName());
 			System.out.println(arr[index].getEmployeeSalary());
 			
 			index++;
 			System.out.println("---------------------------");
 		}
+		
+		
+	       
 	}
 	
 }
