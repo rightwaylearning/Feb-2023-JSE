@@ -35,6 +35,49 @@ public class Student {
 		return studentFirstName;
 	}
 	
+	public String getStudentLastName() {
+		return studentLastName;
+	}
+	
+	public int[] getMarks() {
+		return marks;
+	}
+	
+	public Address[] getAddress() {
+		return address;
+	}
+	
+	public School getSchool() {
+		return school;
+	}
+	
+	//setters
+	
+	public void setRollNumber(int rollNumber) {
+		this.rollNumber = rollNumber;
+	}
+	
+	public void setStudentFirstName(String studentFirstName) {
+		this.studentFirstName = studentFirstName;
+	}
+	
+	public void SetStudentLastName(String studentLastName) {
+		this.studentLastName = studentLastName;
+	}
+	
+	public void setMarks(int[] marks) {
+		this.marks = marks;
+	}
+	
+	public void setAddress(Address[] address) {
+		this.address= address;
+	}
+	
+	public void setSchool(School school) {
+		this.school= school;
+	}
+	
+	
 	
 	
 	

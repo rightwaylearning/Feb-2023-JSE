@@ -4,7 +4,7 @@ public class School {
 	
 	private String regNo;
 	private String schoolName;
-	private String schoolAddress;
+	private Address schoolAddress;
 	
 	//default constructor
 	public School() {
@@ -29,7 +29,7 @@ public class School {
 		return schoolName;
 	}
 	
-	public String getSchoolAddress() {
+	public Address getSchoolAddress() {
 		return schoolAddress;
 	}
 	
@@ -42,11 +42,11 @@ public class School {
 	public void setSchoolName(String schoolName) {
 		this.schoolName = schoolName;
 	}
-	
-	public void setschoolAddress(String schoolAddress) {
-		this.schoolAddress= schoolAddress;
-		
+
+	public void setSchoolAddress(Address adr) {
+		this.schoolAddress = adr;
 	}
+	
 	
 
 }
