@@ -1,6 +1,6 @@
 package switch_case;
 
-public class ColourSelection {
+public class colourSelection {
 
 	String selectcolour(char ch) {
 		
