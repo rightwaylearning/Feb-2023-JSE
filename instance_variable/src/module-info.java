@@ -5,5 +5,5 @@
  * @author HP
  *
  */
-module addition_java {
+module instance_variable {
 }

@@ -8,7 +8,7 @@ public class controller {
 		
 		
 		
-	String selectcolour	= ColourSelection.selectcolour("g");
+	= ColourSelection.selectcolour("g");
 		
 	
 		
