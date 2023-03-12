@@ -3,16 +3,20 @@ package rp_practice.programs;
 public class Case1 {
 	
 	public String message;
-	public static String Name;
+	static public String name;
 
 
 //	this is constructor in that aapn object properties initialize karu shaktoh
 	public Case1(){
 		this.message = "hello2 message";
-		Case1.Name = "feff";
+		Case1.name = "feff";
 		
 	}
 	
+	public static void m1() {
+		
+		System.out.println("this is static method");
+	}
 	
 	public Case1(String message) {
 		super();
@@ -30,13 +34,13 @@ public class Case1 {
 	}
 
 
-	public static String getName() {
-		return Name;
+	public static String getname() {
+		return name;
 	}
 
 
-	public static void setName(String name) {
-		Name = name;
+	public static void setname(String name) {
+		Case1.name = name;
 	}
 
 
