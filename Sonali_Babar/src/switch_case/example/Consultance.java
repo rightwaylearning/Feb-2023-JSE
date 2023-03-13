@@ -3,6 +3,8 @@ package switch_case.example;
 
 public class Consultance 
 {
+	
+	
 	public ClassRoomInfo advice(int ageInMonth)
 	{
 		ClassRoomInfo classRoom=null;
