@@ -9,7 +9,9 @@ public class Student {
 	
 	
 	public Student() {
-			this.no = 54;
+		
+		
+//			this.no = 54;
 			
 			
 	}
@@ -18,9 +20,7 @@ public class Student {
 		super();
 		this.name = name;
 		
-		if(no>=1 && no<=60) {
 		this.no = no;
-		}
 		
 		this.adr = adr;
 	}
@@ -34,14 +34,22 @@ public class Student {
 	}
 
 	public Integer getNo() {
+		
+		
 		return no;
 	}
 
 	public void setNo(Integer no) {
-		this.no = no;
+		if(no>=1 && no<=60) {
+			this.no = no;
+			}
+		else {
+			System.out.println("sorry aapne galat value dali hai");
+		}
 	}
 
 	public Address getAdr() {
+		
 		return adr;
 	}
 
