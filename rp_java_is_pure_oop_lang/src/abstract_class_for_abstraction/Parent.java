@@ -16,6 +16,8 @@ abstract public class Parent {
 //	ya madhe idea aahe but implement kas karav kalat nahi mhnje paise implement karayla
 //	finance nahiye mhnjech paise nahiyet home create karayla 
 	abstract void buildHome();
+	
+	abstract void second();
 
 	
 }
