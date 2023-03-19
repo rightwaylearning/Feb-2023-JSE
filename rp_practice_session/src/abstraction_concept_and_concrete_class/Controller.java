@@ -10,6 +10,8 @@ public class Controller {
 		u.passWordpin();
 		u.money();
 		
+		u.m1();
+		
 	}
 
 }

@@ -14,6 +14,9 @@ public class Atm extends User {
 		
 	}
 	
+	void m1() {
+		System.out.println("this is override method m1");
+	}
 	
 
 }
