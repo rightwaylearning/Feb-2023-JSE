@@ -5,15 +5,17 @@ public class Parent {
     	 System.out.println("Old Style");   	 
      }
      void bankBalance() {
-    	 System.out.println("Fd=3000000");
+    	 System.out.println("Fd=5000000");
     	 
      }
 }
 
-  abstract class Child extends Parent{
-	  void Homeconstruction() {
+      class Child extends Parent{
+	  void HomeConstruction() {
 		  System.out.println("New Style");		  
 	  }
-	  abstract void bankBalance();
+	  void ownBussines() {
+	  System.out.println("Digital Marketing");
+  }
   }
 
