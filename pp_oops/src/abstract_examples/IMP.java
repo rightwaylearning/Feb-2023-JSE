@@ -14,7 +14,7 @@ public class IMP {
 		Child c = new Child();
 		c.homeConstruction();
 		c.bankBalance();
-		c.ownBusiness();
+		c.ownBussiness();
 		
 		// Case3
 		Parent p1 = new Child();
