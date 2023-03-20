@@ -5,7 +5,7 @@ public class AFactroy {
 	public static A getAInstance() {
 		
 //		C c= new C();
-//		B b= new B(c);
+//	B b= new B(c);
 //		A a= new A(b);
 //		return a;
 		
