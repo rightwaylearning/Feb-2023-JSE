@@ -1,4 +1,4 @@
-package astractClass;
+package abstractClass;
 
 abstract public class MorningPlan {
 	void prepareTea()

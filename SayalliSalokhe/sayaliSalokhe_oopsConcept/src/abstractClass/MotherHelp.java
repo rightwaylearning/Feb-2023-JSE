@@ -1,4 +1,4 @@
-package astractClass;
+package abstractClass;
 
 public class MotherHelp extends MorningPlan {
 	@Override
