@@ -1,6 +1,7 @@
 package parentChildClassRelation;
 
-public class Parent {
+public class ParentFirst {
+
 	public void HomeConstruction() {
 		System.out.println("Old Construction.........");
 	}
@@ -10,7 +11,7 @@ public class Parent {
 	}
 }
 
-class Child extends Parent {
+class Child extends ParentFirst {
 	public void HomeConstruction() {
 		System.out.println("New Contruction");
 
