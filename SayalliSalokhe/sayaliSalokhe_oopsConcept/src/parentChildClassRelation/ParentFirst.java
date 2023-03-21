@@ -11,7 +11,7 @@ public class ParentFirst {
 	}
 }
 
-class Child extends ParentFirst {
+class ChildFirst extends ParentFirst {
 	public void HomeConstruction() {
 		System.out.println("New Contruction");
 

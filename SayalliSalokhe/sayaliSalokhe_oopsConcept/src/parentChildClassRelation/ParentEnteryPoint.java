@@ -14,7 +14,7 @@ public class ParentEnteryPoint {
 
 		// ---------------Case2--------------------------------------------------------------
 		// child compile time reference and child runtime object.
-         Child c = new Child();
+         ChildFirst c = new ChildFirst();
 		c.HomeConstruction(); // New Construction
 		c.Fund();
 		c.OwnBussiness();
@@ -23,7 +23,7 @@ public class ParentEnteryPoint {
 		// ---------------Case3----------------------------------------------------------------
 		// Parent compile time reference and child runtime object.
 		// Best Way
-		ParentFirst p1 = new Child();
+		ParentFirst p1 = new ChildFirst();
 		p1.HomeConstruction();
 		p1.Fund();
 		// p1.OwnBussiness();//he method OwnBussiness() is undefined for the type Parent
