@@ -55,12 +55,23 @@ public class Controller {
 
 		}
 		else {
+			
+//		else madhe gela tr (Loan loan =null) value rahte aasachchya asa tya mule 
+			
 			System.out.println("sorry please no choose wisely");
 		}
 		
 		
+//		null jr value aasel tr tyacha (Loan loan =null) loan hai ref var aahe 
+//		tyacha object nahiye tr type pn nasel mg kontya class madhun data gheil tya 
+//		mule error yete 
+		
+//		tya mule hi condition lavav lagte
+		
 //		yacha aarth aasa hoto ki null == null aasla aasta tr problem zal aasta aani
 //		tya madhe methodch nahiye tr run time error aala aasta 
+		
+//		Loan loan = null;
 		
 		if(loan != null) {
 			
@@ -68,6 +79,8 @@ public class Controller {
 			loan.myLoan();
 			
 		}else {
+			
+//			Loan loan = null ; yat yete hai 
 			System.out.println("You getting null value object");
 		}
 		
