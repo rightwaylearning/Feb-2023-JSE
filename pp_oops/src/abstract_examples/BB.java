@@ -1,5 +1,11 @@
 package abstract_examples;
 
-public class BB {
+abstract public class BB {
+    void m1() {
+    	
+    }
+    
+    abstract void m2();
+    	
 
 }
