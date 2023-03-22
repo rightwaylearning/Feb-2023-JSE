@@ -5,6 +5,19 @@ public class Controller {
 	public static void main(String[] args) {
 		
 		
+		Case1 obj = new Child();
+		
+		obj.setPri(32);
+		int result= obj.getPri();
+		
+		System.out.println("result without public modifier = " + result );
+		
+		obj.setPriWithAbstract(32);
+		int r = obj.getPriWithAbstract();
+		
+		System.out.println("result with encapsulation type=  " + r);
+		
+		
 //		Case1 c = new Case1();
 //		
 //		c.a = 10;
