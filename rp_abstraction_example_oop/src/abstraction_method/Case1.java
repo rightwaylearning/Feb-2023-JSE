@@ -1,11 +1,28 @@
 package abstraction_method;
 
-public class Case1 {
+abstract public class Case1 {
 
 	int a=12;
 	String b;
 	
+	private int pri;
+
+	private int priWithAbstract;
+
 	
+	abstract void setPriWithAbstract(int a);
+	
+	abstract int getPriWithAbstract();
+	
+	
+	 int getPri() {
+		return pri;
+	}
+
+	 void setPri(int pri) {
+		this.pri = pri;
+	}
+
 	void m1() {
 	
 		System.out.println("this is method m1");
