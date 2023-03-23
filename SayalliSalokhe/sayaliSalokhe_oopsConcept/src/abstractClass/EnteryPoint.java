@@ -7,7 +7,8 @@ public class EnteryPoint {
 		a.m2();
 		
 		//B b =new B(); //Cannot instantiate the type B
-		B b;
+		B b; //but we create refrence of that class
+	
 	}
 
 }

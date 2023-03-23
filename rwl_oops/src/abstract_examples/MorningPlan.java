@@ -6,8 +6,6 @@ abstract class MorningPlan{
 		 System.out.println("Tea...");
 	 }
 	 
-	 abstract void prepareChapatti() {
-		 
-	 }
+	 abstract void prepareChapatti();
 	 
 }
