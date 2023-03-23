@@ -12,7 +12,6 @@ public class Parent {
 	}
 	
 }
-
 class Child extends Parent
 {
 	public void homeConstruction()
