@@ -9,6 +9,10 @@ public class Controller {
 		
 //		abstract class jari parent aasel tari aapn abstract ch object nahi banu shakt
 		
+//		System.out.println(args);
+		
+//		kashyacha tari object pass kela aahe tyala 
+		
 		
 	}
 }
