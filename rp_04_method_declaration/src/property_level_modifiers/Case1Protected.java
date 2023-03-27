@@ -12,4 +12,7 @@ public class Case1Protected {
 	String name1 = "defaultpropertyName";
 	
 	
+	public String name2 = "publicNAme";
+	
 }
+
