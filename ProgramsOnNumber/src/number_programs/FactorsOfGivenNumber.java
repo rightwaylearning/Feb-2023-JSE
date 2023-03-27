@@ -14,3 +14,7 @@ public class FactorsOfGivenNumber {
 		
 	}
 }
+
+// 1 to 100 
+// num = 112233111233;
+// rotatenumber = 23456 >>   56234
