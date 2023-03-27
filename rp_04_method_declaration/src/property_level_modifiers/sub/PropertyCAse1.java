@@ -15,9 +15,14 @@ public class PropertyCAse1 extends Case1Protected {
 //		tya madhli property access
 		
 		
+		
+		
 		PropertyCAse1 p = new PropertyCAse1();
 		
 	     System.out.println(p.name);
+//	    System.out.println(p.name1); 
+	     
+	     
 		
 		
 	}

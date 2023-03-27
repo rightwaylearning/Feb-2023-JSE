@@ -9,5 +9,7 @@ public class Case1Protected {
 	
 	protected String name="hello" ;
 	
+	String name1 = "defaultpropertyName";
+	
 	
 }
