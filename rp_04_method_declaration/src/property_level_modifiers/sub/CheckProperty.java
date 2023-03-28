@@ -14,6 +14,10 @@ public class CheckProperty {
 //		aasa nahi karu shakt protected sobt
 		
 		System.out.println(c.name2);
+		
+		PropertyCAse1 c1 = new PropertyCAse1();
+		
+		System.out.println(c1.name);
 
 		
 	}
