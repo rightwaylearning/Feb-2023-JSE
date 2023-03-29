@@ -11,7 +11,7 @@ public class Controller {
 	 
 //	 int la box madhe wrap karte tyala object banavte
 //	 int la wrap karun box madhe tyala Object banavte
-	 c.m1(a);
+//	 c.m1(a);
 	 
 	 D d = new D();
 	 
@@ -32,6 +32,18 @@ public class Controller {
 	 int arr1[] = {10,32};
 	 
 	 System.out.println(arr1[0]);
+	 
+	 
+	 System.out.println("<<<<<<<>>>>>>>>");
+	 
+	 Case1 c2 =new Case1();
+	 c2.m1(new D());
+	 
+	 c2.m1(Integer.valueOf(10));
+	 
+//	 c2.m1(20.0f,10.0);
+	 
+//	 direct convert nahi honar float to double madhe 
 	 
 	 
 	 
