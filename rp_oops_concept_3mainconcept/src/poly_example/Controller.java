@@ -1,0 +1,40 @@
+package poly_example;
+
+public class Controller {
+	
+	public static void main(String[] args) {
+		
+		
+	 Case1 c  = new Case1();
+	 
+	 int a =10;
+	 
+//	 int la box madhe wrap karte tyala object banavte
+//	 int la wrap karun box madhe tyala Object banavte
+	 c.m1(a);
+	 
+	 D d = new D();
+	 
+//	 recent parent ch ghete only
+	 c.m1(d);
+	
+	 Character c1 ='A';
+	 
+//	 aata konhich parent nahi unboxing kela object la aani char jari banavla tr exact match
+//	 pn nahi tr  object class hai sarvancha parent aahe
+	 c.m1(c1);
+	 
+	 int arr[] = new int[5];
+	 
+	 arr[1] = 10;
+	 
+	 
+	 int arr1[] = {10,32};
+	 
+	 System.out.println(arr1[0]);
+	 
+	 
+	 
+	}
+
+}
