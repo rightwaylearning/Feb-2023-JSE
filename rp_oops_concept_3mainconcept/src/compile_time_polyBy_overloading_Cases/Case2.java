@@ -1,4 +1,4 @@
-package compile_time_polyBy_overloading;
+package compile_time_polyBy_overloading_Cases;
 
 public class Case2 {
 	
