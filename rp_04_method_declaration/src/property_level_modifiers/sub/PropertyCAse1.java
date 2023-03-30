@@ -17,6 +17,7 @@ public class PropertyCAse1 extends Case1Protected {
 		
 		
 		
+		
 		PropertyCAse1 p = new PropertyCAse1();
 		
 	     System.out.println(p.name);
