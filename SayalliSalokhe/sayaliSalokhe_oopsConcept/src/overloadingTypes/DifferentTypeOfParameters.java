@@ -16,5 +16,5 @@ public class DifferentTypeOfParameters {
 	void p(char a) {
 		System.out.println("char   parameters");
 	}
-
+	//in method signature method name should be same but parameter should not be same.
 }
