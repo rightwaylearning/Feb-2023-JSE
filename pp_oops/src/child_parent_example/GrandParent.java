@@ -21,6 +21,9 @@ class Parent extends GrandParent{
 }
 class Child extends Parent {
 	void m3 () {
+		Integer a=100;
+	     Character ch =null;
+	     Long l= null;
 		System.out.println("I am m3 of Child");
 	}
 	
