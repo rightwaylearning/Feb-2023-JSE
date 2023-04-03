@@ -5,6 +5,8 @@ public class Controller {
 	public static void main(String[] args) {
 		
 		String str = new String("hello");
+		
+		int i =10;
 		MathsOpt maths = new MathsOpt();
 		
 		
@@ -12,7 +14,7 @@ public class Controller {
 		
 		User u = new User();
 		
-		u.caller(str);
+		u.caller(i);
 		u.caller(maths);
 	}
 }

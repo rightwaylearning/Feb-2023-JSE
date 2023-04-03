@@ -1,4 +1,4 @@
-package polymorphismOverloding;
+package polymorphismOverlodingCases;
 
 class Test3 {
 	//void m1(int a) {

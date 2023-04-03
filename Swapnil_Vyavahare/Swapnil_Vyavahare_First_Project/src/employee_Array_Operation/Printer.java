@@ -14,24 +14,22 @@ public class Printer {
 			index++;
 		}
 
-		
-
 	}
 
 	public static void updatedsalary(Employee[] arr) {
 		int index1 = 0;
 
 		while (index1 < arr.length) {
-			
-			double salary = arr[index1].getEmpSalary()+arr[index1].getEmpSalary()*0.1;
-			
+
+			double salary = arr[index1].getEmpSalary() + arr[index1].getEmpSalary() * 0.1;
+
 			arr[index1].setEmpSalary(salary);
-			System.out.println("Empoyee ID ="+arr[index1].getEmpId());
-			System.out.println("hi " +arr[index1].getEmpName() + " Congratulation ");
-			System.out.println("Congratulation you get promoted as manager and your monthly salary = " +arr[index1].getEmpSalary());
+			System.out.println("Empoyee ID =" + arr[index1].getEmpId());
+			System.out.println("hi " + arr[index1].getEmpName() + " Congratulation ");
+			System.out.println("Congratulation you get promoted as manager and your monthly salary = "
+					+ arr[index1].getEmpSalary());
 			System.out.println(">>>>>>>>>>.............>>>>>>>>>>");
-		
-			
+
 			index1++;
 		}
 
