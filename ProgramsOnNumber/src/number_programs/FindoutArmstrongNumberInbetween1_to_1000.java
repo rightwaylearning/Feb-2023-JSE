@@ -4,7 +4,7 @@ public class FindoutArmstrongNumberInbetween1_to_1000 {
 
 	public static void main(String[] args) {
 
-		for (int i = 1; i <= 1000; i++) {
+		for (int i = 1; i <= 10000; i++) {
 			int num = i;
 			int numCopy = num;
 			int sum = 0;
