@@ -25,3 +25,4 @@ public class A {
 		//t.m1('A');
 	}
 }
+    
