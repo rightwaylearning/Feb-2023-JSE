@@ -68,3 +68,6 @@ public class reduceExample {
 		System.out.println(re1);
 	}
 }
+
+   
+
