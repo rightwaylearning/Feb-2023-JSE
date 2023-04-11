@@ -7,7 +7,8 @@ public class case5 {
 		
 		  final boolean b = true;
 		 
-		   while(b == false){
+		   while(b == false)
+		   {
 			System.out.println("Hi, I am inside");
 	    	}
 	
@@ -16,7 +17,7 @@ public class case5 {
 		
 		   // Hi I am outside
 		 
-		 
+	} 
 		
 	}
-}
+

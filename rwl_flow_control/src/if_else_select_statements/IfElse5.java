@@ -9,7 +9,7 @@ public class IfElse5
 			int a = 10;
 			System.out.println(args);
 			{
-				int b = 200;
+				int b=200;
 			}
 			System.out.println(b);
 	     }

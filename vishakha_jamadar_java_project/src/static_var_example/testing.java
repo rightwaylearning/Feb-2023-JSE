@@ -17,7 +17,7 @@ public class testing {
 		
 		
 		System.out.println(A.z);
-		System.out.println(a1.z);
+		System.out.println(a1.y);
 		System.out.println(a2.x);	
 	}
 

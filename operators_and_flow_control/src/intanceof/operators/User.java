@@ -4,7 +4,7 @@ public class User {
 
 	public void caller(Object obj) {
 
-		if (obj instanceof String) {
+		if (obj instanceof Integer) {
 			String s1 = (String) obj;
 			int l = s1.length();
 			System.out.println(l);
