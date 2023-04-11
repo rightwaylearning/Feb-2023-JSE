@@ -27,9 +27,5 @@ public class StaticFlow {
         StaticFlow a= new StaticFlow();
         System.out.println("----------");
         StaticFlow a1= new StaticFlow();
-        
-        
-        A a3= new A();
-        
 	}
 }
