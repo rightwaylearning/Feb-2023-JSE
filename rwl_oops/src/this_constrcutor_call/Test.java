@@ -14,9 +14,8 @@ class Child extends Parent{
 		System.out.println("I am Child class zero arg constrcutor call");
 	}
 	
-	Child(int num){
-		this(num,num);
-	}
+	
+	
 	
 	Child(int x, int y){
 		System.out.println("I am child class 2 parameter constrcutor call");
