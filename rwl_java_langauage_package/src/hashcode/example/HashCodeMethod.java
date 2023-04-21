@@ -13,10 +13,15 @@ public class HashCodeMethod {
 		N n1= new N();
 		
 		M m2 = m;
+		   
 		
-		
+		//  == 
 		System.out.println(n1.hashCode() == m1.hashCode());
 		System.out.println(m.hashCode() ==m2.hashCode());
 		
+		
+		int a =897654;  // decimal
+		String res = Integer.toHexString(a);
+		System.out.println(res);
 	}
 }
