@@ -20,6 +20,7 @@ public class PrintFullNameOfClass {
 	   // 2
 		MySelf m = new MySelf();
 		Class c1=  m.getClass();
+		System.out.println(c1);
 		
 		System.out.println(c1.getName());
 		
