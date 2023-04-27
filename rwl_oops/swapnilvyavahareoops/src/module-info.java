@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author Intel
- *
- */
-module swapnilvyavahareoops {
-}
