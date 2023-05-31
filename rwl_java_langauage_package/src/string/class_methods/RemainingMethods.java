@@ -25,6 +25,6 @@ public class RemainingMethods {
 		System.out.println(index);
 		
 		int index1 = str2.lastIndexOf('h');
-		System.out.println(index1.);
+		System.out.println(index1);
 	}
 }
